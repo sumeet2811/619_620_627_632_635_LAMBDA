@@ -1,0 +1,27 @@
+ # Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: Build or coverage folders
+coverage/
+dist/
+build/
+
+# Optional: Editor/IDE stuff
+.vscode/
+.idea/
+
+# Docker (if used later)
+*.pid
+*.sock
