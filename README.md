@@ -4,7 +4,7 @@ A mini serverless function execution engine — inspired by AWS Lambda — built
 
 - 💾 Docker containers for isolated code execution
 - 🔒 gVisor runtime for secure sandboxing
-- 🧠 Metrics collection (Response time, errors, resource usage)
+- 🧠 Metrics collection (Response time, errors)
 - ⚡️ Warm-up mechanism for cold-start optimization
 - 💡 Container pooling for performance boost
 
@@ -13,7 +13,7 @@ A mini serverless function execution engine — inspired by AWS Lambda — built
 ## 🧰 Features
 
 ✅ Request routing to appropriate function containers  
-✅ Function warm-up & caching  
+✅ Function warm-up 
 ✅ Metrics collection and storage  
 ✅ Supports two virtualization technologies:
 - Docker (Default)
@@ -30,7 +30,21 @@ A mini serverless function execution engine — inspired by AWS Lambda — built
 
 ---
 
-## 🐧 Project Structure
+## ⚡️ Running Locally
+
+1. Install Docker, gVisor, streamlit and required dependencies. 
+2. Clone the repo:
+   ```bash
+   git clone https://github.com/sumeet2811/619_620_627_632_635_LAMBDA
+3. Start the server:
+     cd ../backend
+     npm run dev
+4. Start the frontend:
+     cd ../frontend
+     streamlit run ui.py
+---
+
+
 
 
 
