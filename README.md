@@ -37,10 +37,12 @@ A mini serverless function execution engine — inspired by AWS Lambda — built
    ```bash
    git clone https://github.com/sumeet2811/619_620_627_632_635_LAMBDA
 3. Start the server:
-     cd ../backend
+   ```bash
+     cd backend
      npm run dev
-4. Start the frontend:
-     cd ../frontend
+5. Start the frontend:
+   ```bash
+     cd frontend
      streamlit run ui.py
 ---
 
